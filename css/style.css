@@ -1,25 +1,18 @@
+
 body{
   font-family: 'Amatic SC', cursive;
   text-align: center;
   width:60%;
   min-width: 400px;
-  margin:auto;
   font-size: 25px;
-  /* The image used */
-  background-image: "./img/background.png";
-
-  /* Full height */
-  height: 100%;
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  line-height: 80%;
-  font-weight: bold;
+  margin: auto;
+  background-image: linear-gradient(#FFFFFF, #909090);
 }
+
 p {
   color: #832C2C;
   font-size: 20px;
+  font-weight: normal;
 }
 h1 {
   color: black;
@@ -130,3 +123,20 @@ li a.active {
     max-width: 100%;
   }
 }
+
+.button {
+  background-color: #2F4F4F;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.button:hover {opacity: 1}
